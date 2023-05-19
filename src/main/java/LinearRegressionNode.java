@@ -1,5 +1,5 @@
 public class LinearRegressionNode implements Node{
-    double weight;
+    private double weight;
 
     @Override
     public double predict(double x) {
